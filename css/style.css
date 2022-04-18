@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+
+    font-size: 1rem;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    font-size: 2rem;
+}
+
+/* ABOUT */
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile .about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px
+}
+
+.profile .photo img {
+    height: 300px;
+}
+
+/* GOALS */
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* TIMESHILDS */
+
+.timeshilds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.timeshilds table {
+    border-spacing: 80px 0px;
+    padding-bottom: 20px;
+}
+
+/* RESULTS */
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.results table {
+    border-spacing: 40px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* todo: not working... */
+.results table .head-row {
+    border-top: 1px solid black;
+}
+
+/* CONTACTS */
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.contacts table {
+    border-spacing: 80px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
